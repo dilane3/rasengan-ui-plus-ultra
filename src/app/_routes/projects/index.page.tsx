@@ -13,8 +13,8 @@ const Page: PageComponent = () => {
 };
 
 Page.metadata = {
-	title: "Projects",
-	description: "Projects Page",
+	title: "Projects - D3 Portfolio",
+	description: "Explore my incredible projects",
 };
 
 export default Page;

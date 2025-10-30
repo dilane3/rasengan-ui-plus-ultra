@@ -22,8 +22,8 @@ const Page: PageComponent = () => {
 };
 
 Page.metadata = {
-	title: "Dilane Kombou",
-	description: me.about,
+	title: "About - D3 Portfolio",
+	description: "Discover who I am and what I do",
 };
 
 export default Page;

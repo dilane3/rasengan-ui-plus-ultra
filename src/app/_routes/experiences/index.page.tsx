@@ -40,8 +40,9 @@ const Page: PageComponent = () => {
 };
 
 Page.metadata = {
-	title: "Experiences",
-	description: "Experiences Page",
+	title: "Experiences - D3 Portfolio",
+	description:
+		"I have worked on a lot of projects and I have a lot of experiences",
 };
 
 export default Page;
