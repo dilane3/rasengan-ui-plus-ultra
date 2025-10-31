@@ -5,6 +5,7 @@ import { ProjectPreview } from "./project-preview";
 import Image from "@rasenganjs/image";
 import { ExternalLink } from "lucide-react";
 import { Link } from "rasengan";
+import { Badge } from "../ui/badge";
 
 export function ProjectCard({ data }: { data: Project }) {
 	const hover = useMotionValue(0);
@@ -61,9 +62,16 @@ export function ProjectCard({ data }: { data: Project }) {
 					</Link>
 				</div>
 				<span className='text-foreground/70'>{data.description}</span>
+				<div className='flex gap-2'>
+					{data.technologies.map((tech, index) => (
+						<Badge key={index} className=''>
+							{tech}
+						</Badge>
+					))}
+				</div>
 			</motion.div>
 
-			<motion.div
+			{/* <motion.div
 				style={{
 					opacity,
 				}}
@@ -74,7 +82,7 @@ export function ProjectCard({ data }: { data: Project }) {
 						<span>Preview - {data.title}</span>
 					</Button>
 				</Link>
-			</motion.div>
+			</motion.div> */}
 		</motion.div>
 	);
 }

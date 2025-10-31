@@ -18,6 +18,7 @@ export default function ThemeButton() {
 			className={twMerge(
 				"relative aspect-square rounded-md flex shrink-0 items-center justify-center overflow-hidden hover:cursor-pointer backdrop-blur-2xl"
 			)}
+			aria-label='Toggle theme'
 		>
 			{isDark ? (
 				<div

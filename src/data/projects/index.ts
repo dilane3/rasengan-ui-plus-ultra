@@ -25,13 +25,7 @@ export const projects: Project[] = [
 				value: "https://github.com/rasengan-dev/rasenganjs",
 			},
 		],
-		technologies: [
-			"React",
-			"Rasengan.js",
-			"TypeScript",
-			"TailwindCSS",
-			"Shadcn UI",
-		],
+		technologies: ["React", "React Router", "TypeScript", "Express.js", "Vite"],
 	},
 	{
 		title: "Youcare",

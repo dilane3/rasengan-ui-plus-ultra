@@ -9,7 +9,12 @@ export default function Footer() {
 				<div className='flex gap-2'>
 					{me.socials.map((social, index) => (
 						<Link key={index} to={social.link} target='_blank'>
-							<Button size='icon' variant='outline' className='text-foreground'>
+							<Button
+								size='icon'
+								variant='outline'
+								className='text-foreground'
+								aria-label={social.name}
+							>
 								{social.icon}
 							</Button>
 						</Link>

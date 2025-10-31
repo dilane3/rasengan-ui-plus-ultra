@@ -37,6 +37,7 @@ export default function HeadingCard() {
 									size='icon'
 									variant='outline'
 									className='text-foreground'
+									aria-label={social.name}
 								>
 									{social.icon}
 								</Button>
@@ -74,6 +75,7 @@ export default function HeadingCard() {
 									size='icon'
 									variant='outline'
 									className='text-foreground'
+									aria-label={social.name}
 								>
 									{social.icon}
 								</Button>
